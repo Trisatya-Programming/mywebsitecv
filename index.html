@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dropdown-nav">
+        <div id="close-menu" onclick="closeMenu()">
+            <img src="images/close.svg">
+        </div>
+        <div id="dropdown">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolios">Portfolio</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="cursor-btn" onclick="cursorBtn()">
+        <img src="images/cursor-btn.svg">
+    </div>
+
+    <div class="nav">
+        <img src="images/logo.svg" alt="logo">
+        <div id="open-menu" onclick="openMenu()">
+            <img src="images/menu.svg">
+        </div>
+    </div>
+
+    <div class="home-container" id="home">
+        <div class="home-profile">
+            <div class="heading">
+                <h1 class="h1">Hello</h1>
+                <img src="images/profile.svg" alt="profile-pic">
+                <h1 class="h1">There</h1>
+                <h1>Hello There</h1>
+            </div>
+            <div class="sub-heading">
+                <p>I learn and I love what i do</p>
+            </div>
+        </div>
+
+        <div class="arrow">
+            <a href="#about">
+                <img src="images/arrow.svg" alt="scroll-down" id="scroll">
+            </a>
+        </div>
+    </div>
+
+    <img src="images/Path.svg" class="bg-svg">
+    <div class="blue-container"  id="about">
+        <div class="profile">
+            <div class="bio">
+            <h1>Hi, Nice to meet you.</h1>
+            <p>My name is Didiek Trisatya, you can call me Didik, or Satya, whatever
+                you like.
+            </p>
+            <p>I am a learner, a curious person, and actually someone who is interested in web development, especially front-end developers, wants to learn about programming languages ​​and share with others.</p>
+            <p>I live in Semarang Now and born at the Tegal regency on oct 10th 2001.
+                I have two brother, and I'm very gratefully
+                to live with them until now.
+            </p>
+            <h2>Personal Information:</h2><hr>
+            <ul>
+                <li>Age: <b>18 Years Old</b></li>
+                <li>Phone: <b>+62-877-3023-4000</b></li>
+                <li>E-mail: <b>trisatyadidiek86@gmail.com</b></li>
+            </ul>
+            </div>
+            <div class="illustration1">
+                <img src="images/illustration1.svg" alt="illustration1">
+            </div>
+        </div>
+    </div>
+    <img src="images/Path.svg" class="bg-svg-2">
+
+    <div class="portfolio" id="portfolios">
+        <h2>Here's a few list of my work.</h2><hr id="hr">
+        <section class="one">
+            <img src="images/port.svg" alt="portfolio-1">
+            <div class="port-text">
+                <h3>Cats and Koi</h3>
+                <span>This is illustration of two cats circlingtwo koi fish.</span>
+                <hr>
+            </div>
+        </section>
+        <section class="two">
+            <img src="images/port2.svg" alt="portfolio-2">
+            <div class="port-text">
+                <h3>Isometric Flat 2.5D Illustration</h3>
+                <span>This isometric design is made when
+                I had a stressed because of my school task.
+                I don't even know what is this.</span>
+                <hr>
+            </div>
+        </section>
+        <section class="three">
+            <img src="images/port3.svg" alt="portfolio-2">
+            <div class="port-text">
+                <h3>A Flying Whale</h3>
+                <span>A whale carrying an island.
+                this illustration was made when
+                I dreamed of a whale flying
+                on the sky.</span>
+                <hr>
+            </div>
+        </section>
+    </div>
+
+    <img src="images/Path.svg" class="bg-svg3">
+    <div class="footer" id="contacts">
+        <div class="contact">
+            <div class="illustration2">
+                <img src="images/illustration2.svg" alt="illustration2">
+            </div>
+            <div class="contact-me">
+                <h2>Wanna Talk or even Start a project with me ?</h2>
+                <a href="contact.html">
+                    <input type="button" value="Click Here" id="submit">
+                </a>
+                <p>"Keep Learning and don't forget to sharing."</p>
+                <div class="social-media-link">
+                    <a href="https://www.facebook.com/didik.trizayn" target="_blank">
+                        <img src="images/f-icon.svg" alt="facebook"><p>Didik Tri Satya</p>
+                    </a>
+                    <a href="https://www.instagram.com/trisatya_didik86/" target="_blank">
+                        <img src="images/ig-icon.svg" alt="instagram"><p>trisatya_didik86</p>
+                </div>
+            </div>
+            <div class="social-media">
+                <div class="social-media-link">
+                    <a href="https://www.facebook.com/didik.trizayn" target="_blank">
+                        <img src="images/f-icon.svg" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/trisatya_didik86/" target="_blank">
+                        <img src="images/ig-icon.svg" alt="instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
